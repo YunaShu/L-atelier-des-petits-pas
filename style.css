@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Beau+Rivage&family=Dancing+Script:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Advent Pro', 'sans-serif'; 
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+li{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #29c4cf;
+    
+}
+
+
+
+/* ********************* NAVBAR *************************** */
+
+nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+    padding: 15px 20px;
+    }
+
+
+    header li a:hover{
+        color:  #F9CA24;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    #logo {
+        font-family: 'Beau Rivage', 'cursive';
+        font-weight: bold;
+        float: left;
+        font-size: 25px;
+    }
+
+    #texte {
+        font-family: 'Dancing Script' 'cursive'; 
+        font-weight: bold;
+        float: right;
+        font-size: 28px;
+        
+    }
+
+    /**************** IMAGE PRINCIPALE ******************** */
+
+    #ImagePrincipale {
+        padding-top: 60px;
+        background: url(img/baby-nursery-crib-design.jpg) no-repeat fixed 50% 50%;
+        background-size: cover;
+        height: 799px;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', 'cursive';
+            text-align: center;
+            color: palevioletred;
+            font-size: 6em;
+            margin-top: 100px;
+            text-shadow: 1px 3px 2px #F9CA24;
+        }
+
+        #trait {
+            height: 3px;
+            width: 40%;
+            margin: -3px auto;
+            background-color: palevioletred;
+            box-shadow: 1px 3px 2px #F9CA24;
+            
+        }
+
+        h3 {
+            font-family: 'Beau Rive', 'cursive';
+            text-align: center;
+            color: palevioletred;
+            font-size: 3em;
+            text-shadow: 1px 3px 2px #F9CA24;
+        }
+/* 
+**********************PRESENTATION************************* */
+
+#presentation {
+    background-color: rgb(83, 199, 207);
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    padding: 0% 20%;
+}
+
+.who{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2em;
+    color: #29c4cf;
+}
+
+img{ 
+    border-radius: 5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 60px;
+    
+    }
+
+img:hover {
+    opacity: 0,5;
+    transform: scale(1.05);
+    transition: 0.10s ease-in-out;
+
+}
+
+.pauline{ width: 26.8%;
+    min-width: 20%;
+    max-width: 50%;
+    }
+    .veronique{ width: 20%;
+        min-width: 20%;
+        max-width: 50%;
+
+    }
+/* 
+    **************FOOTER*************** */
+
+    footer{
+        background-color: #29c4cf;
+        color:white;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    h2{
+        text-transform: uppercase;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 2em;
+     color: white;
+    }
+
+    form{
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+    input, textarea, button {
+        border: none;
+        width: 55%;
+        padding: 15px 10px;
+        margin: 1px 0;
+        font-size: 1.2em;
+        font-family: 'Advent Pro', sans-serif;
+        border-radius: 8px;
+    }
+    textarea {
+        height: 120px;
+    }
+
+    button {
+        font-size: 1.5em;
+        background-color: white;
+        color: #29c4cf;
+    }
+
+    button:hover {
+        background-color:  #F9CA24;
+        color: #29c4cf;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+
+    #copyrightEticons {
+        display: flex
+        margin-bottom: 20px;
+        padding: 0 10%;
+
+    }
+
+    #copyright {
+        width: 50%;
+        text-align: left;
+        color: white;
+}
+
+#icons {
+    width: 50%;
+    text-align: right;
+}
+
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+
+#icon a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+    }
+
+#deuxièmetrait{
+        height: 3px;
+        width: 75%;
+        margin: 60px auto;
+        background-color: white;
+            
+
+    }
